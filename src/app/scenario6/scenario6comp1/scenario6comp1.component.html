@@ -1,0 +1,4 @@
+{{message}}
+<app-scenario6comp2 (childEvent)="message=$event"></app-scenario6comp2>
+<!-- send data to 2nd child -->
+<app-scenario6comp3 [parentData]="message"></app-scenario6comp3>
